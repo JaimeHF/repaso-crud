@@ -1,0 +1,15 @@
+<div class="container coasters-index">
+
+  <a href="/parks/new" class="btn btn-dark">Crear parque de atracciones</a>
+
+  <h1 style="font-weight: 100">PARQUE DE ATRACCIONES</h1>
+{{#each allPark}}
+  <hr>
+  <a href="#" class="btn btn-sm btn-dark">Ver detalles</a>
+  <h4>{{this.name}}</h4>
+  <p>{{this.description}}</p>
+   <hr>
+{{/each}}
+
+
+</div>
